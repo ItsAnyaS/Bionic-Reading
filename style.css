@@ -1,0 +1,44 @@
+.body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 130vh;
+    background-color: rgb(250, 204, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 15rem;
+    line-height: 50%;
+    height: 50vh;
+    width: 70vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.form-container {
+    position: absolute;
+    top: 5rem;
+    height: 30vh;
+    overflow: none;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+}
