@@ -5,24 +5,31 @@
     justify-content: center;
 }
 
+
+span {
+line-height: 2px;
+}
+
+
 .container {
     width: 100vw;
-    height: 130vh;
-    background-color: rgb(250, 204, 250);
+    min-height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
+    background-color:rgb(244, 244, 247);
 }
 
 .content{
-    margin-top: 15rem;
+    margin-top: 20rem;
     line-height: 50%;
-    height: 50vh;
+    height: 30vh;
     width: 70vw;
-    
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
-    overflow-y: scroll;
+    padding: 1rem;   
+    line-height: 5px;
+    background-color:rgb(244, 244, 247);
 }
 
 .form-container {
@@ -41,4 +48,16 @@
 
 h1 {
     margin: 0;
+}
+
+
+#input-field{
+    height: 10vh;
+    width: 50vw  ;
+}
+
+#submit-btn{
+    margin: 10px;
+    height: 35px;
+    width: 125px;
 }
